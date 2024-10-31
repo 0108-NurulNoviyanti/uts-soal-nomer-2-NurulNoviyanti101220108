@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8e44ad;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #8e44ad;
+    border-radius: 5px;
+}
+
+.hewan {
+    display: flex;
+    align-items: center;
+}
+
+.hewan img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8e44ad;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
